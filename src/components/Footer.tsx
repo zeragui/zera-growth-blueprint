@@ -1,4 +1,4 @@
-import logoZera from "@/assets/logo-zera.png";
+import logoBranca from "@/assets/logo-branca.png";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <img src={logoZera} alt="Zera Company" className="h-12 w-auto" />
+          <img src={logoBranca} alt="Zera Company" className="h-12 w-auto" />
           
           {/* Links */}
           <div className="flex items-center gap-8 text-sm text-muted-foreground">
