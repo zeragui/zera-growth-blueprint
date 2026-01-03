@@ -1,4 +1,4 @@
-import logoZera from "@/assets/logo-zera.png";
+import logoBranca from "@/assets/logo-branca.png";
 import { Button } from "@/components/ui/button";
 const Header = () => {
   const scrollToForm = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="/" className="flex items-center">
-            <img src={logoZera} alt="Zera Company" className="h-15 md:h-18 w-auto" />
+            <img src={logoBranca} alt="Zera Company" className="h-15 md:h-18 w-auto" />
           </a>
 
           {/* CTA Button */}
